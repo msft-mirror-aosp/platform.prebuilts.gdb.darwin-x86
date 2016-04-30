@@ -31,7 +31,7 @@ installed_prefix ()
     echo $RESULT
 }
 
-prefix_build="/buildbot/tmp/buildhost/install/prebuilt/darwin-x86_64"
+prefix_build="/Volumes/Android/buildbot/src/android/master-ndk/out/build/buildhost/darwin-x86_64/install/host-tools"
 prefix_real=$(installed_prefix "$0")
 
 exec_prefix_build="${prefix}"
